@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
 
@@ -41,6 +42,20 @@ class Handler extends ExceptionHandler
      *
      * @return void
      */
+
+    protected function unauthenticated($request, AuthenticationException $exception) 
+    {
+        if ($request->expectsJson()) {
+         return response()
+            ->json([
+            "message"=>"usuario no autorizado",
+            "error"=>"usuario no autorizado",
+            "success"=>false
+            ],"401");
+        } 
+        return redirect()->guest('login');
+    }
+    
     public function register()
     {
         $this->reportable(function (Throwable $e) {
