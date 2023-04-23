@@ -44,6 +44,12 @@ include_once 'route/historial_aportaciones.php';
 
 // fin
 
+// todas las rutas para el historial
+
+include_once 'route/tipo_egresos.php';
+
+// fin
+
 
 
 Route::middleware('auth:sanctum')->get("/pacientes",[pacienteController::class,"all"]);
@@ -64,7 +70,7 @@ Route::middleware('auth:sanctum')->delete("/citas/delete/{id}",[citasController:
 
 Route::middleware('auth:sanctum')->post("/users/alldoctor",[AuthController::class,"allDoctor"]);
 
-Route::middleware('auth:sanctum')->post("/tratamientos/showbypx",[tratamientoController::class,"showbypx"]);
+Route::middleware('auth:sanctum')->post("/tphp artisan make:controller tipo_egreso_controllerratamientos/showbypx",[tratamientoController::class,"showbypx"]);
 
 
 Route::get("/productos",[productoController::class,"all"]);
