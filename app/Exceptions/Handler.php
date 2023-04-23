@@ -55,6 +55,11 @@ class Handler extends ExceptionHandler
         } 
         return redirect()->guest('login');
     }
+
+    protected function shouldReturnJson($request, Throwable $e)
+{
+    return true;
+}
     
     public function register()
     {
