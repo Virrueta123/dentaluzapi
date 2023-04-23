@@ -39,7 +39,7 @@ class AuthController extends Controller
     } 
     $user = User::where("username",$request["username"])->firstOrFail();
     
-    $token = $user->createToken("auth_token")->plainTextToken;
+    $token = $user->createToken("API TOKEN")->plainTextToken;
 
     $userData = User::with("usertype")->where("username",$request["username"])->firstOrFail();
 
