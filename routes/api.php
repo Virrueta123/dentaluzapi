@@ -52,6 +52,38 @@ include_once 'route/tipo_egresos.php';
 
 
 
+Route::get("/pacientes",[pacienteController::class,"all"]);
+Route::post("/pacientes/dropdownsearch",[pacienteController::class,"dropdownsearch"]);
+Route::post("/pacientes/show",[pacienteController::class,"show"]);
+Route::post("/pacientes/searchbyhx",[pacienteController::class,"searchbyhx"]);
+
+//aportaciones
+Route::post("/alumnos/dropdownsearch",[alumnosController::class,"dropdownsearch"]);
+
+Route::post("users/tokennotification",[AuthController::class,"tokenNotification"]);
+
+Route::post("/citas/showcitasdrx",[citasController::class,"showcitasdrx"]);
+Route::post("/citas/createcita",[citasController::class,"createCita"]);
+Route::post("/citas/all",[citasController::class,"all"]);
+Route::post("/citas/showcita",[citasController::class,"showcita"]);
+Route::delete("/citas/delete/{id}",[citasController::class,"delete"]);
+
+Route::post("/users/alldoctor",[AuthController::class,"allDoctor"]);
+
+Route::post("/tphp artisan make:controller tipo_egreso_controllerratamientos/showbypx",[tratamientoController::class,"showbypx"]);
+
+
+Route::get("/productos",[productoController::class,"all"]);
+
+Route::post("/productos",[productoController::class,"store"]);
+
+Route::delete("/productos/{id}",[productoController::class,"destroy"]);
+
+Route::post("users/login",[AuthController::class,"login"]);
+
+Route::get("users/usertype",[AuthController::class,"usertype"]);
+
+/*
 Route::middleware('auth:sanctum')->get("/pacientes",[pacienteController::class,"all"]);
 Route::middleware('auth:sanctum')->post("/pacientes/dropdownsearch",[pacienteController::class,"dropdownsearch"]);
 Route::middleware('auth:sanctum')->post("/pacientes/show",[pacienteController::class,"show"]);
@@ -72,13 +104,4 @@ Route::middleware('auth:sanctum')->post("/users/alldoctor",[AuthController::clas
 
 Route::middleware('auth:sanctum')->post("/tphp artisan make:controller tipo_egreso_controllerratamientos/showbypx",[tratamientoController::class,"showbypx"]);
 
-
-Route::get("/productos",[productoController::class,"all"]);
-
-Route::post("/productos",[productoController::class,"store"]);
-
-Route::delete("/productos/{id}",[productoController::class,"destroy"]);
-
-Route::post("users/login",[AuthController::class,"login"]);
-
-Route::get("users/usertype",[AuthController::class,"usertype"]);
+*/
