@@ -27,7 +27,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 // rutas para las aportaciones del padua
 
-   include_once 'route/padua.php';
+include_once 'route/padua.php';
 
 // 
 
@@ -44,11 +44,24 @@ include_once 'route/historial_aportaciones.php';
 
 // fin
 
+// todas las rutas para el historial_promocion
+
+include_once 'route/historial_promocion.php';
+
+// fin
+
 // todas las rutas para el historial
 
 include_once 'route/tipo_egresos.php';
 
 // fin
+
+// todas las rutas para el tipo de pago
+
+include_once 'route/forma_pago.php';
+
+// fin
+
 
 
 

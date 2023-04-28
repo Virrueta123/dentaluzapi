@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\alumnos;
+use App\Models\configuraciones;
 use App\Models\ingresos_aportaciones_historial;
 use App\Models\ingresosAportaciones;
 use App\Models\meses_aportaciones;
@@ -57,14 +58,22 @@ class ingresosAportacionesController extends Controller
     }
 
     public function add_aportaciones(Request $req){
+        
         $Datax = $req->all();
         try {
-
+            $url="";
+            if(is_null($Datax["url"])){
+                $url = "N";
+            }else{
+                $url = $Datax["url"];
+            }
             $ingresoHistorial = ingresos_aportaciones_historial::create([
                 "Al_Id" => $Datax["Al_Id"],
-                "Iah_Monto"=> $Datax["monto_total"] 
+                "Iah_Monto"=> $Datax["monto_total"],
+                "Iah_Imagen" => $url 
             ]);
  
+            $cofiguraciones = configuraciones::where("Cof_Item","monto_aportacion")->first();
             
             $all = ingresosAportaciones::
                 where( 'Al_Id', $Datax["Al_Id"] )->where('Msa_SinIngreso', 'N' )->get();
@@ -80,8 +89,8 @@ class ingresosAportacionesController extends Controller
             //si por primera vez se ingresa un aporte para un alumno
             if(count($all) == 10){
                
-                $cuantosveintes = $monto  / 20;
-                $restante = $monto - intval($cuantosveintes)*20;
+                $cuantosveintes = $monto  / $cofiguraciones->Cof_Valor;
+                $restante = $monto - intval($cuantosveintes)*$cofiguraciones->Cof_Valor;
 
                 if (is_double($cuantosveintes) ){
 
@@ -89,7 +98,7 @@ class ingresosAportacionesController extends Controller
                         $cambiar = ingresosAportaciones::where('Msa_Id',$i)->where( 'Al_Id', $Datax["Al_Id"]);
                         
                         $cambiar->update([ 
-                            "Ipo_Monto" => 20.00,
+                            "Ipo_Monto" =>$cofiguraciones->Cof_Valor,
                             "Msa_SinIngreso"=>"Y",
                             "Iah_Id"=> $ingresoHistorial->Iah_Id
                         ]); 
@@ -106,7 +115,7 @@ class ingresosAportacionesController extends Controller
                         $cambiar = ingresosAportaciones::where('Msa_Id',$i)->where( 'Al_Id', $Datax["Al_Id"]);
                         
                         $cambiar->update([ 
-                            "Ipo_Monto" => 20.00,
+                            "Ipo_Monto" => $cofiguraciones->Cof_Valor,
                             "Msa_SinIngreso"=>"Y",
                             "Iah_Id"=> $ingresoHistorial->Iah_Id
                         ]); 
@@ -118,12 +127,12 @@ class ingresosAportacionesController extends Controller
        
             if( !is_null($faltacompletar) ){
 
-                $montoabonar = 20 - ($faltacompletar->Ipo_Monto + $monto);
+                $montoabonar = $cofiguraciones->Cof_Valor - ($faltacompletar->Ipo_Monto + $monto);
 
                 if( $montoabonar >= 0 ){
                     if($montoabonar == 0){
                         $faltacompletarupdate->update([ 
-                            "Ipo_Monto" => 20,
+                            "Ipo_Monto" => $cofiguraciones->Cof_Valor,
                             'Msa_SinIngreso'=> 'Y',
                             "Iah_Id"=> $ingresoHistorial->Iah_Id
                         ]);
@@ -136,10 +145,10 @@ class ingresosAportacionesController extends Controller
                     
                   
                 }else{
-                    $montoa = 20 - $faltacompletar->Ipo_Monto;
+                    $montoa = $cofiguraciones->Cof_Valor - $faltacompletar->Ipo_Monto;
                     $montob = $monto - $montoa;
-                    $cuantosveintes = $montob  / 20; 
-                    $restante = $montob - intval($cuantosveintes)*20;
+                    $cuantosveintes = $montob  / $cofiguraciones->Cof_Valor; 
+                    $restante = $montob - intval($cuantosveintes)*$cofiguraciones->Cof_Valor;
 
                     if( is_double($cuantosveintes) ){
                         
@@ -147,7 +156,7 @@ class ingresosAportacionesController extends Controller
                             $cambiar = ingresosAportaciones::where('Msa_Id',$i)->where( 'Al_Id', $Datax["Al_Id"]);
                             
                             $cambiar->update([ 
-                                "Ipo_Monto" => 20.00,
+                                "Ipo_Monto" => $cofiguraciones->Cof_Valor,
                                 "Msa_SinIngreso"=>"Y",
                                 "Iah_Id"=> $ingresoHistorial->Iah_Id
                             ]); 
@@ -166,7 +175,7 @@ class ingresosAportacionesController extends Controller
                             $cambiar = ingresosAportaciones::where('Msa_Id',$i)->where( 'Al_Id', $Datax["Al_Id"]);
                             
                             $cambiar->update([ 
-                                "Ipo_Monto" => 20.00,
+                                "Ipo_Monto" => $cofiguraciones->Cof_Valor,
                                 "Msa_SinIngreso"=>"Y",
                                 "Iah_Id"=> $ingresoHistorial->Iah_Id
                             ]); 
@@ -177,8 +186,8 @@ class ingresosAportacionesController extends Controller
           
             }else{
                 
-                $cuantosveintes = $monto  / 20;
-                $restante = $monto - intval($cuantosveintes)*20;
+                $cuantosveintes = $monto  / $cofiguraciones->Cof_Valor;
+                $restante = $monto - intval($cuantosveintes)*$cofiguraciones->Cof_Valor;
               
                 if (is_double($cuantosveintes) ){
 
@@ -186,7 +195,7 @@ class ingresosAportacionesController extends Controller
                         $cambiar = ingresosAportaciones::where('Msa_Id',$i)->where( 'Al_Id', $Datax["Al_Id"]);
                         
                         $cambiar->update([ 
-                            "Ipo_Monto" => 20.00,
+                            "Ipo_Monto" => $cofiguraciones->Cof_Valor,
                             "Msa_SinIngreso"=>"Y",
                             "Iah_Id"=> $ingresoHistorial->Iah_Id
                         ]); 
@@ -203,7 +212,7 @@ class ingresosAportacionesController extends Controller
                         $cambiar = ingresosAportaciones::where('Msa_Id',$i)->where( 'Al_Id', $Datax["Al_Id"]);
                         
                         $cambiar->update([ 
-                            "Ipo_Monto" => 20.00,
+                            "Ipo_Monto" => $cofiguraciones->Cof_Valor,
                             "Msa_SinIngreso"=>"Y",
                             "Iah_Id"=> $ingresoHistorial->Iah_Id
                         ]); 
@@ -225,7 +234,7 @@ class ingresosAportacionesController extends Controller
                 create([
                     "Msa_Id" => 2,
                     "Al_Id" => $Datax["Al_Id"],
-                    "Ipo_Monto" => 20
+                    "Ipo_Monto" => $cofiguraciones->Cof_Valor
                 ]); 
 
             return response()

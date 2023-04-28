@@ -2,22 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\tipo_egreso;
+use App\Models\tipocuentas;
 use Illuminate\Http\Request;
 use Throwable;
 
-class tipo_egreso_controller extends Controller
+class forma_pago_controller extends Controller
 {
-    public function all(){
+    public function all( /* get */ ){ 
         try {
-            $get = tipo_egreso::where("Teg_active","A")->orderBy("Teg_Id", 'asc')->get();
- 
+            $tipocuentas = tipocuentas::all();
             return response()
                 ->json([
-                    "message" => "tipos de egresos cargado exitosamente ",
-                    "error" => "",
+                    "message" => "cofiguraciones cargado exitosamente ",
+                    "error" => "error",
                     "success" => true,
-                    "data" => $get 
+                    "data" => $tipocuentas
                 ]); 
         } catch (Throwable $e) {
             return response()
@@ -27,6 +26,7 @@ class tipo_egreso_controller extends Controller
                     "success" => false,
                     "data" => ""
                 ]); 
-        }
+        } 
+         
     }
 }

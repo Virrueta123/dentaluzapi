@@ -18,7 +18,7 @@ class tratamientoController extends Controller
     return response() 
     ->json([
         "message"=>"tratamientos cargados exitosamente ", 
-        "error"=>"",
+        "error"=> "error",
         "success"=>true,
         "data"=> $tratamientos
         ]); 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Exports\AportacionesExcel;
+use App\Exports\AportacionesPorAlumnoExcel;
 use App\Models\ingresos_aportaciones_historial;
 use App\Models\ingresosAportaciones;
 use Carbon\Carbon;
@@ -213,4 +214,10 @@ class ingresos_aportaciones_historial_controller extends Controller
     function export_aportaciones_excel(){
         return Excel::download(new AportacionesExcel, 'aportaciones_'.Carbon::now()->format("y-m-d H:i:s").'.xlsx' );
     }
+
+        //exportar reporte
+
+        function aportaciones_apafa_reporte_por_alumno($id){
+            return Excel::download(new AportacionesPorAlumnoExcel($id), 'aportacion_por_alumno'.Carbon::now()->format("y-m-d H:i:s").'.xlsx' );
+        }
 }

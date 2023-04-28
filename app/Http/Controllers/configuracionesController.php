@@ -15,7 +15,7 @@ class configuracionesController extends Controller
             return response()
                 ->json([
                     "message" => "cofiguraciones cargado exitosamente ",
-                    "error" => "",
+                    "error" => "error",
                     "success" => true,
                     "data" => $cofiguraciones->Cof_Valor
                 ]); 
@@ -24,6 +24,29 @@ class configuracionesController extends Controller
                 ->json([
                     "message" => "error =>".$e,
                     "error" => true,
+                    "success" => false,
+                    "data" => ""
+                ]); 
+        }
+        
+    }
+
+    public function monto_total_promocion( /* get */ ){
+      
+        try {
+            $cofiguraciones = configuraciones::where("Cof_Item","monto_totla_promocion")->first();
+            return response()
+                ->json([
+                    "message" => "cofiguraciones cargado exitosamente ",
+                    "error" => "error",
+                    "success" => true,
+                    "data" => $cofiguraciones->Cof_Valor
+                ]); 
+        } catch (Throwable $e) {
+            return response()
+                ->json([
+                    "message" => "error =>".$e,
+                    "error" => "error",
                     "success" => false,
                     "data" => ""
                 ]); 

@@ -5,7 +5,10 @@ namespace App\Exports;
 use App\Models\alumnos;
 use App\Models\configuraciones;
 use App\Models\ingresos_aportaciones_historial;
-use Maatwebsite\Excel\Concerns\FromCollection;
+use App\Models\ingresosAportaciones;
+use Maatwebsite\Excel\Concerns\FromView;
+use Illuminate\Contracts\View\View;
+use Maatwebsite\Excel\Concerns\ShouldAutoSize;
 
 class AportacionesPorAlumnoExcel implements FromView,ShouldAutoSize 
 {
@@ -17,21 +20,19 @@ class AportacionesPorAlumnoExcel implements FromView,ShouldAutoSize
     { 
         $this->Al_Id = $Al_Id;  
     }
-    public function collection()
+    public function view(): View
     {
-        $alumnos = alumnos::where("Al_Id",$this->Al_Id)->get();   
-        $egresos = ingresos_aportaciones_historial::where("Iah_Operacion","E")->get();  
-     
-        $egresosTotal = ingresos_aportaciones_historial::where("Iah_Operacion", 'E')->sum('Iah_Monto');
-        $ingresosTotal = ingresos_aportaciones_historial::where("Iah_Operacion", 'I')->sum('Iah_Monto');
- 
+        $alumnos = alumnos::where("Al_Id",$this->Al_Id)->first();   
+        $aportaciones = ingresosAportaciones::where("Al_Id",$this->Al_Id)->get();  
+        
+        $sum = ingresosAportaciones::where("Al_Id",$this->Al_Id)->sum("Ipo_Monto"); 
+         
         $cofiguraciones = configuraciones::where("Cof_Item","monto_total_aportaciones")->first();
-
+        dd($aportaciones);
         return view('export.excel.aportaciones_apafa_reporte_por_alumno', [ 
-            "alumnos" => $alumnos,
-            "egresos" => $egresos,
-            "egresosTotal" => $egresosTotal,
-            "ingresosTotal" => $ingresosTotal,
+            "alumnos" => $alumnos, 
+            "sum" => $sum,
+            "aportaciones" => $aportaciones,
             "total_aporte" => $cofiguraciones->Cof_Valor
           ]);
     }

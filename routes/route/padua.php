@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
   
 Route::post("/ingresos_aportaciones/monto_actual_por_alumno",[ingresosAportacionesController::class,"monto_actual_por_alumno"]);
 Route::post("/ingresos_aportaciones/add_aportaciones",[ingresosAportacionesController::class,"add_aportaciones"]); 
-Route::post("/ingresos_aportaciones/script_add_meses",[ingresosAportacionesController::class,"script_add_meses"]); 
+Route::get("/ingresos_aportaciones/script_add_meses",[ingresosAportacionesController::class,"script_add_meses"]); 
