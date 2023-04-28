@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\promocion_por_alumno_reporte;
 use App\Exports\promocionReporte;
 use App\Models\alumnos;
 use App\Models\configuraciones;
@@ -467,5 +468,7 @@ class promocion_controller extends Controller
     
     //exportar un reporte reporte 
     function export_aportaciones_excel(){ return Excel::download(new promocionReporte, 'aportaciones_'.Carbon::now()->format("y-m-d H:i:s").'.xlsx' ); }
+
+    function promocion_reporte_por_alumno  ($id){ return Excel::download(new promocion_por_alumno_reporte($id), 'aportaciones_'.Carbon::now()->format("y-m-d H:i:s").'.xlsx' ); }
     
 }

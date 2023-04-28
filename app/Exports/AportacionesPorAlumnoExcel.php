@@ -28,7 +28,7 @@ class AportacionesPorAlumnoExcel implements FromView,ShouldAutoSize
         $sum = ingresosAportaciones::where("Al_Id",$this->Al_Id)->sum("Ipo_Monto"); 
          
         $cofiguraciones = configuraciones::where("Cof_Item","monto_total_aportaciones")->first();
-        dd($aportaciones);
+        
         return view('export.excel.aportaciones_apafa_reporte_por_alumno', [ 
             "alumnos" => $alumnos, 
             "sum" => $sum,
