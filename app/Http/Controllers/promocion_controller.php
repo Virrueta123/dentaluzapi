@@ -41,7 +41,7 @@ class promocion_controller extends Controller
     public function monto_actual_por_alumno(Request $req){
         $Datax = $req->all();
         try {
-            $ingresos = meses_promocion::
+            $ingresos = promocion_mensualidad::
                   where('Al_Id', $Datax["Al_Id"] ) 
                 ->sum('Prm_Monto');
             return response()
