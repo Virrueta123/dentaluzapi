@@ -43,7 +43,7 @@ class promocion_controller extends Controller
         try {
             $ingresos = promocion_mensualidad::
                   where('Al_Id', $Datax["Al_Id"] ) 
-                ->sum('Prm_Monto');
+                  ->sum('Prm_Monto');
             return response()
                 ->json([
                     "message" => "suma cargado exitosamente ",
