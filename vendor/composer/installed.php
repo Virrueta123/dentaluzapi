@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '0ef8789fcbfe9d4d2808a2e643c7582bc96c80c6',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'd960a9e65faf00df297fcacc25f3499ccc043f82',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -136,6 +136,15 @@
             'reference' => '58571acbaa5f9f462c9c77e911700ac66f446d4e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../fruitcake/php-cors',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'giansalex/peru-consult' => array(
+            'pretty_version' => 'v4.5.1',
+            'version' => '4.5.1.0',
+            'reference' => '9d3147794c1ea3935a7478371cb6249d9d2fdb42',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../giansalex/peru-consult',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -392,9 +401,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '0ef8789fcbfe9d4d2808a2e643c7582bc96c80c6',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'd960a9e65faf00df297fcacc25f3499ccc043f82',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -808,8 +817,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(

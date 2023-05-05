@@ -6,6 +6,7 @@ use App\Http\Controllers\citasController;
 use App\Http\Controllers\pacienteController;
 use App\Http\Controllers\productoController;
 use App\Http\Controllers\tratamientoController;
+use App\Http\Controllers\consulta_controller;
 use App\Models\alumnos;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -62,6 +63,11 @@ include_once 'route/forma_pago.php';
 
 // fin
 
+// todas las rutas para consultas a apis
+
+include_once 'route/consulta_api.php';
+
+// fin
 
 
 
@@ -76,6 +82,7 @@ Route::post("/alumnos/dropdownsearch",[alumnosController::class,"dropdownsearch"
 Route::post("users/tokennotification",[AuthController::class,"tokenNotification"]);
 
 Route::post("/citas/showcitasdrx",[citasController::class,"showcitasdrx"]);
+Route::post("/citas/showcitasdrxall",[citasController::class,"showcitasdrxall"]);
 Route::post("/citas/createcita",[citasController::class,"createCita"]);
 Route::post("/citas/all",[citasController::class,"all"]);
 Route::post("/citas/showcita",[citasController::class,"showcita"]);

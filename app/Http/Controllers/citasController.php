@@ -34,23 +34,67 @@ class citasController extends Controller
     }
 
     public function showcitasdrx(Request $Datax){ 
-        $Datax = $Datax->all();
-        $citas = citas::
-          with("pacientes")
-        ->with("doctores")
-        ->where("Cx_Id_doctor",$Datax["id_doctor"])
-        ->where("Cx_Fecha",$Datax['todaySelect'])
-        ->orderBy('Cx_Hora', 'asc')
-        ->get();
 
-        return response() 
-    ->json([
-        "message"=>"Citas cargadas correctamente", 
-        "error"=>"",
-        "success"=>true,
-        "data"=> $citas
-        ]);
+        try {
+            $Datax = $Datax->all();
+            $citas = citas::
+              with("pacientes")
+            ->with("doctores")
+            ->where("Cx_Id_doctor",$Datax["id_doctor"])
+            ->where("Cx_Fecha",$Datax['todaySelect'])
+            ->orderBy('Cx_Hora', 'asc')
+            ->get();
+    
+            return response() 
+            ->json([
+                "message"=>"Citas cargadas correctamente", 
+                "error"=>"",
+                "success"=>true,
+                "data"=> $citas
+            ]);
+        } catch (\Throwable $th) {
+            //throw $th;
+            return response() 
+            ->json([
+                "message"=>"error".$th, 
+                "error"=>"",
+                "success"=>true,
+                "data"=> ""
+            ]);
+        }
+        
     }
+
+    public function showcitasdrxall(Request $Datax){ 
+
+        try {
+            $Datax = $Datax->all();
+            $citas = citas::
+              with("pacientes")
+            ->with("doctores") 
+            ->where("Cx_Fecha",$Datax['todaySelect'])
+            ->orderBy('Cx_Hora', 'asc')
+            ->get();
+    
+            return response() 
+            ->json([
+                "message"=>"Citas cargadas correctamente", 
+                "error"=>"",
+                "success"=>true,
+                "data"=> $citas
+            ]);
+        } catch (\Throwable $th) {
+            //throw $th;
+            return response() 
+            ->json([
+                "message"=>"error".$th, 
+                "error"=>"",
+                "success"=>true,
+                "data"=> ""
+            ]);
+        }
+        
+    }    
 
     public function showcita(Request $Datax){ 
         $Datax = $Datax->all();
@@ -70,41 +114,66 @@ class citasController extends Controller
     }
 
     public function all(){
-        $now = Carbon::now()->format("Y-m-d");
-        $citas = citas::
-        with("pacientes")
-      ->with("doctor")->where("Cx_Fecha",">=",$now)->get();  
-        return response()
-        ->json([
-        "message"=>"Citas cargadas correctamente", 
-        "error"=>"",
-        "success"=>true,
-        "data"=> $citas
-        ]);
+        try {
+            $now = Carbon::now()->format("Y-m-d");
+            $citas = citas::
+            with("pacientes")
+          ->with("doctores")->where("Cx_Fecha",">=",$now)->get();  
+            return response()
+            ->json([
+                "message"=>"Citas cargadas correctamente", 
+                "error"=>"",
+                "success"=>true,
+                "data"=> $citas
+            ]); 
+        } catch (\Throwable $th) {
+            return response()
+            ->json([
+                "message"=>"error citas ".$th, 
+                "error"=>"",
+                "success"=>true,
+                "data"=> ""
+            ]); 
+        }
+
+        
     }
 
     public function createCita(Request $Datax){
-        $Datax = $Datax->all();
-        $horaFinal = Carbon::parse($Datax["hora"])->addMinutes($Datax["intervalo"]);
-        $horaFinal = "{$horaFinal->hour}:{$horaFinal->minute}:00";
 
-        $citas = citas::create([
-            "Cx_Fecha" =>$Datax["fecha"],
-            "Cx_Hora" => $Datax["hora"],
-            "Cx_HoraEnd" =>  $horaFinal,
-            "Cx_Descripcion" => $Datax["descripcion"],
-            "Cx_Id_px" => $Datax["px"],
-            "Cx_Id_doctor" => $Datax["doctor"],
-            "Cx_Id_user" => $Datax["usuario"],
-            "Cx_Historia" => $Datax["historia"] 
-        ]);  
-        return response()
-            ->json([
-            "message"=>"Citas cargadas correctamente", 
-            "error"=>"",
-            "success"=>true,
-            "data"=> $citas
-            ]);
+        try {
+            $Datax = $Datax->all();
+            $horaFinal = Carbon::parse($Datax["hora"])->addMinutes($Datax["intervalo"]);
+            $horaFinal = "{$horaFinal->hour}:{$horaFinal->minute}:00";
+
+            $citas = citas::create([
+                "Cx_Fecha" =>$Datax["fecha"],
+                "Cx_Hora" => $Datax["hora"],
+                "Cx_HoraEnd" =>  $horaFinal,
+                "Cx_Descripcion" => $Datax["descripcion"],
+                "Cx_Id_px" => $Datax["px"],
+                "Cx_Id_doctor" => $Datax["doctor"],
+                "Cx_Id_user" => $Datax["usuario"],
+                "Cx_Historia" => $Datax["historia"] 
+            ]);  
+            return response()
+                ->json([
+                    "message"=>"Citas cargadas correctamente", 
+                    "error"=>"",
+                    "success"=>true,
+                    "data"=>""
+                ]);
+        } catch (\Throwable $th) {
+            //throw $th;
+            return response()
+                ->json([
+                    "message"=>"error al crear la cita vuelta a intentar".$th, 
+                    "error"=>"",
+                    "success"=>true,
+                    "data"=> ""
+                ]);
+        }
+        
          
     }
    

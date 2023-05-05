@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f703bb14e55e29a2da459d4a23874ba3",
+    "content-hash": "2c45d903fede66be2efa8826ba6a5fbe",
     "packages": [
         {
             "name": "brick/math",
@@ -690,6 +690,69 @@
                 }
             ],
             "time": "2022-02-20T15:07:15+00:00"
+        },
+        {
+            "name": "giansalex/peru-consult",
+            "version": "v4.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giansalex/peru-consult.git",
+                "reference": "9d3147794c1ea3935a7478371cb6249d9d2fdb42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giansalex/peru-consult/zipball/9d3147794c1ea3935a7478371cb6249d9d2fdb42",
+                "reference": "9d3147794c1ea3935a7478371cb6249d9d2fdb42",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "behat/behat": "^3.5",
+                "clue/block-react": "^1.3",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7"
+            },
+            "suggest": {
+                "react/http": "Allow Dni, Ruc async requests"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Peru\\": "src/Peru/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giancarlos Salas",
+                    "email": "giansalex@gmail.com"
+                }
+            ],
+            "description": "Consulta gratuita de DNI, RUC en Perú",
+            "homepage": "https://github.com/giansalex/peru-consult",
+            "keywords": [
+                "DNI",
+                "consulta-dni",
+                "consulta-ruc",
+                "peru",
+                "reniec",
+                "ruc",
+                "sunat"
+            ],
+            "support": {
+                "issues": "https://github.com/giansalex/peru-consult/issues",
+                "source": "https://github.com/giansalex/peru-consult/tree/v4.5.1"
+            },
+            "time": "2023-04-01T15:24:35+00:00"
         },
         {
             "name": "graham-campbell/result-type",
