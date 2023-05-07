@@ -85,12 +85,13 @@ Route::post("/citas/showcitasdrx",[citasController::class,"showcitasdrx"]);
 Route::post("/citas/showcitasdrxall",[citasController::class,"showcitasdrxall"]);
 Route::post("/citas/createcita",[citasController::class,"createCita"]);
 Route::post("/citas/all",[citasController::class,"all"]);
+Route::post("/citas/seleccionSemanaCita",[citasController::class,"seleccionSemanaCita"]);
 Route::post("/citas/showcita",[citasController::class,"showcita"]);
 Route::delete("/citas/delete/{id}",[citasController::class,"delete"]);
 
 Route::post("/users/alldoctor",[AuthController::class,"allDoctor"]);
 
-Route::post("/tphp artisan make:controller tipo_egreso_controllerratamientos/showbypx",[tratamientoController::class,"showbypx"]);
+Route::post("/tratamientos/showbypx",[tratamientoController::class,"showbypx"]);
 
 
 Route::get("/productos",[productoController::class,"all"]);

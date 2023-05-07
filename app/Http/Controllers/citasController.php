@@ -118,7 +118,7 @@ class citasController extends Controller
             $now = Carbon::now()->format("Y-m-d");
             $citas = citas::
             with("pacientes")
-          ->with("doctores")->where("Cx_Fecha",">=",$now)->get();  
+          ->with("doctores")->where("activo","A")->get();  
             return response()
             ->json([
                 "message"=>"Citas cargadas correctamente", 
@@ -139,9 +139,41 @@ class citasController extends Controller
         
     }
 
+    public function seleccionSemanaCita(Request $Datax){
+
+        try {
+
+            $Datax = $Datax->all();
+             
+            $startWeek = Carbon::parse($Datax["fecha"])->startOfWeek(); 
+            $endWeek   = Carbon::parse($Datax["fecha"])->endOfWeek();
+
+            $citas = citas::with("pacientes")->with("doctores")->whereBetween('Cx_Fecha',[ $startWeek,$endWeek ])->where("activo","A")->get();   
+
+            return response()
+                ->json([
+                    "message"=>"Citas cargadas correctamente", 
+                    "error"=>"",
+                    "success"=>true,
+                    "data"=> $citas
+                ]);
+        } catch (\Throwable $th) {
+            //throw $th;
+            return response()
+                ->json([
+                    "message"=>"error al crear la cita vuelta a intentar".$th, 
+                    "error"=>"",
+                    "success"=>true,
+                    "data"=> ""
+                ]);
+        }
+
+    }
+
     public function createCita(Request $Datax){
 
         try {
+
             $Datax = $Datax->all();
             $horaFinal = Carbon::parse($Datax["hora"])->addMinutes($Datax["intervalo"]);
             $horaFinal = "{$horaFinal->hour}:{$horaFinal->minute}:00";
@@ -161,7 +193,7 @@ class citasController extends Controller
                     "message"=>"Citas cargadas correctamente", 
                     "error"=>"",
                     "success"=>true,
-                    "data"=>""
+                    "data"=> citas::with("pacientes")->with("doctores")->where("Cx_Id",$citas->Cx_Id)->first()
                 ]);
         } catch (\Throwable $th) {
             //throw $th;
