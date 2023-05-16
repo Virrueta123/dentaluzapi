@@ -30,8 +30,8 @@ class consulta_controller extends Controller
                 ->json([
                     "message" => "cofiguraciones cargado exitosamente ",
                     "error" => "",
-                    "success" => true,$person
-                    "data" => 
+                    "success" => true,
+                    "data" => $person
                 ]); 
             } 
 

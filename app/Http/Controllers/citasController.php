@@ -170,10 +170,8 @@ class citasController extends Controller
 
     }
 
-    public function createCita(Request $Datax){
-
-        try {
-
+    public function createCita(Request $Datax){ 
+        try { 
             $Datax = $Datax->all();
             $horaFinal = Carbon::parse($Datax["hora"])->addMinutes($Datax["intervalo"]);
             $horaFinal = "{$horaFinal->hour}:{$horaFinal->minute}:00";
@@ -204,9 +202,51 @@ class citasController extends Controller
                     "success"=>true,
                     "data"=> ""
                 ]);
-        }
-        
-         
+        } 
     }
+
+    public function update_cita(Request $Datax){ 
+        try { 
+            $Datax = $Datax->all(); 
+            $citas = citas::where("Cx_Id",$Datax["id"]); 
+            $update = $citas->update([
+                "Cx_Fecha"=>$Datax["fecha"],
+                "Cx_Hora"=>$Datax["start"],
+                "Cx_HoraEnd"=>$Datax["end"],
+            ]);
+
+            if ($update) {
+                return response()
+                    ->json([
+                        "message"=>"La cita se actualizo correctamente", 
+                        "error"=>"",
+                        "success"=>true,
+                        "data"=>""
+                    ]);                 
+            }else{
+                return response()
+                    ->json([
+                        "message"=>"error al actualizar", 
+                        "error"=>"",
+                        "success"=>true,
+                        "data"=> ""
+                    ]);                
+            }
+              
+
+        } catch (\Throwable $th) {
+            //throw $th;
+            return response()
+                ->json([
+                    "message"=>"error al actualizar".$th, 
+                    "error"=>"",
+                    "success"=>true,
+                    "data"=> ""
+                ]);
+        } 
+    }   
+
+ 
+
    
 }

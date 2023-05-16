@@ -5,7 +5,7 @@ namespace App\Exceptions;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
-
+use Illuminate\Support\Facades\Log;
 class Handler extends ExceptionHandler
 {
     /**
@@ -57,9 +57,10 @@ class Handler extends ExceptionHandler
     }
 
     protected function shouldReturnJson($request, Throwable $e)
-{
-    return true;
-}
+    {
+        Log::error($e); 
+        return true;
+    }
     
     public function register()
     {
@@ -67,4 +68,8 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+ 
+    
+    
 }

@@ -65,10 +65,15 @@ include_once 'route/forma_pago.php';
 
 // todas las rutas para consultas a apis
 
-include_once 'route/consulta_api.php';
+include_once 'route/tratamiento.php';
 
 // fin
 
+// todas las rutas par tratamientos
+
+include_once 'route/consulta_api.php';
+
+// fin
 
 
 Route::get("/pacientes",[pacienteController::class,"all"]);
@@ -86,12 +91,13 @@ Route::post("/citas/showcitasdrxall",[citasController::class,"showcitasdrxall"])
 Route::post("/citas/createcita",[citasController::class,"createCita"]);
 Route::post("/citas/all",[citasController::class,"all"]);
 Route::post("/citas/seleccionSemanaCita",[citasController::class,"seleccionSemanaCita"]);
+Route::post("/citas/update_cita",[citasController::class,"update_cita"]);
 Route::post("/citas/showcita",[citasController::class,"showcita"]);
 Route::delete("/citas/delete/{id}",[citasController::class,"delete"]);
 
 Route::post("/users/alldoctor",[AuthController::class,"allDoctor"]);
+Route::get("/users/first_doctor",[AuthController::class,"first_doctor"]);
 
-Route::post("/tratamientos/showbypx",[tratamientoController::class,"showbypx"]);
 
 
 Route::get("/productos",[productoController::class,"all"]);

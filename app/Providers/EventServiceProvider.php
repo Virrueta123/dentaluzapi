@@ -39,4 +39,18 @@ class EventServiceProvider extends ServiceProvider
     {
         return false;
     }
+    
+    public function map()
+{
+    $this->mapApiRoutes();
+
+    $this->mapWebRoutes();
+
+    $oauthMaxAttemtps = env('OAUTH_TOKEN_MAX_ATTEMPTS', '12d0,1');
+
+    Route::post('/oauth/token', [
+        'uses' => '\Laravel\Passport\Http\Controllers\AccessTokenController@issueToken',
+        'middleware' => "throttle:$oauthMaxAttemtps",
+    ]);
+}
 }

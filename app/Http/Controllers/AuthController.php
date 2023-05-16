@@ -8,6 +8,7 @@ use Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use stdClass;  
+
 class AuthController extends Controller
 {   
    public function usertype(){
@@ -25,6 +26,18 @@ class AuthController extends Controller
         "data"=> $Doctores
         ]); 
    } 
+   
+   public function first_doctor(){
+  
+    $Doctor = User::where("isDoctor","Y")->first();
+    return response() 
+    ->json([
+        "message"=>"Docotores cargados exitosamente ", 
+        "error"=>"",
+        "success"=>true,
+        "data"=> $Doctor
+        ]); 
+   }    
 
    public function login(Request $request){
 
