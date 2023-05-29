@@ -8,9 +8,7 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class citasController extends Controller
-{
-    
-
+{ 
     public function delete($id){ 
    
         $citas = citas::where("Cx_Id",$id);
@@ -38,7 +36,10 @@ class citasController extends Controller
         try {
             $Datax = $Datax->all();
             $citas = citas::
-              with("pacientes")
+              with(["pacientes" => function($query){
+     // get total for detail_sales for sale
+        $query->with("doctor");
+       }])
             ->with("doctores")
             ->where("Cx_Id_doctor",$Datax["id_doctor"])
             ->where("Cx_Fecha",$Datax['todaySelect'])
@@ -204,7 +205,48 @@ class citasController extends Controller
                 ]);
         } 
     }
+    
+    
+       public function createcitaconsulta(Request $Datax){ 
+        try { 
+            $Datax = $Datax->all();
+            $px = pacientes::where("isConsulta","Y")->first();
+            $horaFinal = Carbon::parse($Datax["hora"])->addMinutes($Datax["intervalo"]);
+            $horaFinal = "{$horaFinal->hour}:{$horaFinal->minute}:00";
 
+            $citas = citas::create([
+                "Cx_Fecha" =>$Datax["fecha"],
+                "Cx_Hora" => $Datax["hora"],
+                "Cx_HoraEnd" =>  $horaFinal,
+                "Cx_Descripcion" => $Datax["descripcion"],
+                "Cx_Id_px" => $px->Px_Id,
+                "Cx_Nombre" => $Datax["nombre"],
+                "Cx_Celular"=>$Datax["celular"],
+                "Cx_Id_doctor" => $Datax["doctor"],
+                "Cx_Id_user" => $Datax["usuario"],
+                "Cx_Id_user" => $Datax["usuario"],
+                "isConsulta" => "Y",
+            ]);  
+            return response()
+                ->json([
+                    "message"=>"Se creo la cita correctamente", 
+                    "error"=>"",
+                    "success"=>true,
+                    "data"=> citas::with("pacientes")->with("doctores")->where("Cx_Id",$citas->Cx_Id)->first()
+                ]);
+        } catch (\Throwable $th) {
+            //throw $th;
+            return response()
+                ->json([
+                    "message"=>"error al crear la cita vuelta a intentar".$th, 
+                    "error"=>"",
+                    "success"=>true,
+                    "data"=> ""
+                ]);
+        } 
+    }
+    
+    
     public function update_cita(Request $Datax){ 
         try { 
             $Datax = $Datax->all(); 

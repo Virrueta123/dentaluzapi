@@ -71,7 +71,13 @@ include_once 'route/tratamiento.php';
 
 // todas las rutas par tratamientos
 
-include_once 'route/consulta_api.php';
+include_once 'route/consulta_api.php'; 
+
+// fin
+
+// todas las rutas par tratamientos
+
+include_once 'route/egresos.php'; 
 
 // fin
 
@@ -89,6 +95,7 @@ Route::post("users/tokennotification",[AuthController::class,"tokenNotification"
 Route::post("/citas/showcitasdrx",[citasController::class,"showcitasdrx"]);
 Route::post("/citas/showcitasdrxall",[citasController::class,"showcitasdrxall"]);
 Route::post("/citas/createcita",[citasController::class,"createCita"]);
+Route::post("/citas/createcitaconsulta",[citasController::class,"createcitaconsulta"]);
 Route::post("/citas/all",[citasController::class,"all"]);
 Route::post("/citas/seleccionSemanaCita",[citasController::class,"seleccionSemanaCita"]);
 Route::post("/citas/update_cita",[citasController::class,"update_cita"]);

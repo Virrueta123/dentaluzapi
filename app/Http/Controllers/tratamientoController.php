@@ -36,6 +36,7 @@ class tratamientoController extends Controller {
 			$Plantratamiento->Tx_Descripcion = $data["Tx_Descripcion"];
 			$Plantratamiento->Tx_fecha = helper_controller::fechaactual();
 			$Plantratamiento->Tx_monto = $data["Tx_monto"];
+			$Plantratamiento->Tx_fecha = $data["Tx_fecha"];
 			$Plantratamiento->Tx_TipoPago_Id = $data["tipopago"];
 			// Asignacion del valor al tipo de pago 1 = a ningun tipo de cuenta
 			$Plantratamiento->Tx_Cuenta_Id = $data["cuenta"];
