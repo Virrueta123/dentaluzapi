@@ -11,7 +11,8 @@ class pacientes extends Model
     protected $table = "pacientes";
     protected $primaryKey = 'Px_Id';
     public $timestamps = false;
-    protected $guarded = [ ];
+    protected $guarded = [];
+    
     public function doctor(){
         return $this->belongsTo(User::class,"Px_IdDoctor");
     }

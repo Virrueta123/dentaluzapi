@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\egresos;
+use App\Models\fechacaja;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Throwable;
@@ -22,13 +23,20 @@ class egresos_controller extends Controller
             $registro->Eg_Monto = $request->input('Eg_Monto');
             $registro->save(); 
 
-            return response()
-                    ->json([
-                        "message" => "Se registro correctamente ",
-                        "error" => "",
-                        "success" => true,
-                        "data" => ""
-                    ], 201); 
+            if ($registro) {
+                $fechacaja = new fechacaja();
+                $regis = $fechacaja->crear($request->input('Eg_Monto'), "egress"); 
+
+                return response()
+                ->json([
+                    "message" => "Se registro correctamente ",
+                    "error" => "",
+                    "success" => true,
+                    "data" => ""
+                ], 201); 
+            }
+
+           
         } catch (Throwable $e) {
             Log::error($e);
             return response()
