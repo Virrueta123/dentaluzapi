@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\consultorio; 
 use App\Models\control_inventario;
-use App\Models\Inventario; 
+use App\Models\inventario; 
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -15,7 +15,7 @@ class inventario_controller extends Controller
     function search_inventario(Request $req){ 
         try {
  
-            $iventarios = Inventario::
+            $iventarios = inventario::
             with(['control' => function ($query) {
                 $query->select("*", DB::raw("SUM(CASE WHEN Cinx_Ingreso='DI' THEN Cinx_Cantidad ELSE 0 END) AS restar"), DB::raw("SUM(CASE WHEN Cinx_Ingreso='AU' THEN Cinx_Cantidad ELSE 0 END) AS sumar"))->groupBy('Inx_Id');  
             }])->with("consultorio")
