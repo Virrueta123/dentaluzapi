@@ -11,23 +11,26 @@ class pacienteController extends Controller
         echo pacientes::all();
     }
     public function dropdownsearch(Request $req){
-    $pacientes = pacientes::
-          with("doctor")
-        ->where('Px_Nombre', 'like', '%'.$req->all()["search"].'%')
-        ->orWhere('Px_Apellido', 'like', '%'.$req->all()["search"].'%')
-        ->orWhere('Px_Dni', 'like', '%'.$req->all()["search"].'%')
-        ->orWhere('Px_Historia', 'like', '%'.$req->all()["search"].'%') 
-        ->limit(7)
-        ->get();
-    return response() 
-    ->json([
-        "message"=>"pacientes cargados exitosamente ", 
-        "error"=>"",
-        "success"=>true,
-        "data"=> $pacientes
-        ]); 
-    }
 
+        $pacientes = pacientes::
+                     with("doctor")
+                    ->where('Px_Nombre', 'like', '%'.$req->all()["search"].'%')
+                    ->orWhere('Px_Apellido', 'like', '%'.$req->all()["search"].'%')
+                    ->orWhere('Px_Dni', 'like', '%'.$req->all()["search"].'%')
+                    ->orWhere('Px_Historia', 'like', '%'.$req->all()["search"].'%') 
+                    ->limit(7)
+                    ->get();
+
+        return response() 
+        ->json([
+            "message"=>"pacientes cargados exitosamente ", 
+            "error"=>"",
+            "success"=>true,
+            "data"=> $pacientes
+        ]); 
+
+    }
+  
     public function searchbyhx(Request $req){
 
     $Datax = $req->all();

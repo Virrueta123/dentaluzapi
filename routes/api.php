@@ -80,6 +80,12 @@ include_once 'route/consulta_api.php';
 include_once 'route/egresos.php'; 
 
 // fin
+ 
+// todas las rutas par tratamientos
+
+include_once 'route/inventario.php'; 
+
+// fin
 
 
 Route::get("/pacientes",[pacienteController::class,"all"]);
@@ -106,7 +112,6 @@ Route::post("/users/alldoctor",[AuthController::class,"allDoctor"]);
 Route::get("/users/first_doctor",[AuthController::class,"first_doctor"]);
 
 
-
 Route::get("/productos",[productoController::class,"all"]);
 
 Route::post("/productos",[productoController::class,"store"]);
@@ -122,20 +127,14 @@ Route::middleware('auth:sanctum')->get("/pacientes",[pacienteController::class,"
 Route::middleware('auth:sanctum')->post("/pacientes/dropdownsearch",[pacienteController::class,"dropdownsearch"]);
 Route::middleware('auth:sanctum')->post("/pacientes/show",[pacienteController::class,"show"]);
 Route::middleware('auth:sanctum')->post("/pacientes/searchbyhx",[pacienteController::class,"searchbyhx"]);
-
 //aportaciones
-Route::middleware('auth:sanctum')->post("/alumnos/dropdownsearch",[alumnosController::class,"dropdownsearch"]);
-
-Route::middleware('auth:sanctum')->post("users/tokennotification",[AuthController::class,"tokenNotification"]);
-
+Route::middleware('auth:sanctum')->post("/alumnos/dropdownsearch",[alumnosController::class,"dropdownsearch"]); 
+Route::middleware('auth:sanctum')->post("users/tokennotification",[AuthController::class,"tokenNotification"]); 
 Route::middleware('auth:sanctum')->post("/citas/showcitasdrx",[citasController::class,"showcitasdrx"]);
 Route::middleware('auth:sanctum')->post("/citas/createcita",[citasController::class,"createCita"]);
 Route::middleware('auth:sanctum')->post("/citas/all",[citasController::class,"all"]);
 Route::middleware('auth:sanctum')->post("/citas/showcita",[citasController::class,"showcita"]);
-Route::middleware('auth:sanctum')->delete("/citas/delete/{id}",[citasController::class,"delete"]);
-
-Route::middleware('auth:sanctum')->post("/users/alldoctor",[AuthController::class,"allDoctor"]);
-
+Route::middleware('auth:sanctum')->delete("/citas/delete/{id}",[citasController::class,"delete"]); 
+Route::middleware('auth:sanctum')->post("/users/alldoctor",[AuthController::class,"allDoctor"]); 
 Route::middleware('auth:sanctum')->post("/tphp artisan make:controller tipo_egreso_controllerratamientos/showbypx",[tratamientoController::class,"showbypx"]);
-
 */
