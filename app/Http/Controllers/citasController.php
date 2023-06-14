@@ -36,10 +36,9 @@ class citasController extends Controller
         try {
             $Datax = $Datax->all();
             $citas = citas::
-              with(["pacientes" => function($query){
-     // get total for detail_sales for sale
-        $query->with("doctor");
-       }])
+            with(["pacientes" => function($query){ 
+                $query->with("doctor");
+            }])
             ->with("doctores")
             ->where("Cx_Id_doctor",$Datax["id_doctor"])
             ->where("Cx_Fecha",$Datax['todaySelect'])
@@ -71,7 +70,9 @@ class citasController extends Controller
         try {
             $Datax = $Datax->all();
             $citas = citas::
-              with("pacientes")
+            with(["pacientes" => function($query){ 
+                $query->with("doctor");
+            }])
             ->with("doctores") 
             ->where("Cx_Fecha",$Datax['todaySelect'])
             ->orderBy('Cx_Hora', 'asc')

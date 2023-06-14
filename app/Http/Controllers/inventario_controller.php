@@ -23,7 +23,6 @@ class inventario_controller extends Controller
             ->limit(7)
             ->get();
 
-           
             
             return response() 
             ->json([
