@@ -39,7 +39,7 @@ class Helpers {
     }
 
     public static function fechaactual(){    
-        return '2023-04-30';
+       
         return CarbonCarbon::now()->format('Y-m-d');
     }
 
