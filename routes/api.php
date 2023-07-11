@@ -5,8 +5,9 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\citasController;
 use App\Http\Controllers\pacienteController;
 use App\Http\Controllers\productoController;
-use App\Http\Controllers\tratamientoController;
+use App\Http\Controllers\presupuestos_controller;
 use App\Http\Controllers\consulta_controller;
+use App\Http\Controllers\generar_json_controller;
 use App\Models\alumnos;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -87,6 +88,18 @@ include_once 'route/inventario.php';
 
 // fin
 
+// todas las rutas par tratamientos
+
+include_once 'route/tratamiento_precio.php'; 
+
+// fin
+
+// todas las rutas par tratamientos
+
+include_once 'route/presupuesto.php'; 
+
+// fin
+
 
 Route::get("/pacientes",[pacienteController::class,"all"]);
 Route::post("/pacientes/dropdownsearch",[pacienteController::class,"dropdownsearch"]);
@@ -138,3 +151,9 @@ Route::middleware('auth:sanctum')->delete("/citas/delete/{id}",[citasController:
 Route::middleware('auth:sanctum')->post("/users/alldoctor",[AuthController::class,"allDoctor"]); 
 Route::middleware('auth:sanctum')->post("/tphp artisan make:controller tipo_egreso_controllerratamientos/showbypx",[tratamientoController::class,"showbypx"]);
 */
+
+Route::get("json/insertar_unidades_personas",[generar_json_controller::class,"insertar_unidades_personas"]);
+Route::get("json/matricula",[generar_json_controller::class,"matricula"]);
+
+Route::get("json/insertar_unidades_personas_nota",[generar_json_controller::class,"insertar_unidades_personas_nota"]);
+Route::get("json/nota",[generar_json_controller::class,"nota"]);

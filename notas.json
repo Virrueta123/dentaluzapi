@@ -1,0 +1,1737 @@
+{
+  "user": "usuario_prueba",
+  "password": "XXXXXXXXXXXXXXX",
+  "data": [
+    {
+      "tipo_acta": "AE",
+      "nombre_periodo_lectivo": "2022-1",
+      "codigo_modular": "0699595",
+      "nombre_sede_institucion": "SEDE TARAPOTO",
+      "nivel_formacion": "PROFESIONAL TECNICO",
+      "nombre_carrera": "ENFERMERIA TECNICA",
+      "nombre_plan_estudio": "2022-1",
+      "semestre_academico": "I",
+      "turno": "DIURNO",
+      "seccion": "A",
+      "cantidad_alumno": 44,
+      "persona":     [
+        {
+            "Pnx_Id": 1,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "74317688",
+            "nombre_completo": "ABAD CORDOVA, Camilo",
+            "sexo": "MASCULINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 2,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "76273799",
+            "nombre_completo": "AGUILA GONZALES, Angelica",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 3,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "70170274",
+            "nombre_completo": "ALARCON LAURA, Demetria",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 0
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 4,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "73710445",
+            "nombre_completo": "ALARCON VASQUEZ, Jexy Jhoana",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 0
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 5,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "46163220",
+            "nombre_completo": "ALEGRIA CORDOVA, Diana",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 17
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 6,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "76045384",
+            "nombre_completo": "ALEGRIA PEZO, Dorcas",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 7,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "77297818",
+            "nombre_completo": "ALVA HOYOS NANCY, Judith",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 0
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 8,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "77569756",
+            "nombre_completo": "ALVARADO SAAVEDRA, Maria Nicol",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 9,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "43900045",
+            "nombre_completo": "AMACIFUEN FLORES, Elvia",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 10,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "60491322",
+            "nombre_completo": "AMACIFUEN PASHANASI, Jhowari",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 14
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 11,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "73937971",
+            "nombre_completo": "AMASIFUEN AMASIFUEN, Darling Caleb",
+            "sexo": "MASCULINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 14
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 12,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "74596413",
+            "nombre_completo": "AMASIFEN ROJAS, Rosvel Jaime",
+            "sexo": "MASCULINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 17
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 15
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 13,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "62527205",
+            "nombre_completo": "APUELA FASABI, Damaris",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 14,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "40414691",
+            "nombre_completo": "ARANDA RENGIFO, Ruth Raquel",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 14
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 15,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "70914977",
+            "nombre_completo": "ARCE ARMAS, Amanda Jury",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 16,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "71729237",
+            "nombre_completo": "ARIRAMA TANGOA, Katy Paola",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 17,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "73104869",
+            "nombre_completo": "ASPAJO PINEDO, Patrick Jose",
+            "sexo": "MASCULINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 0
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 18,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "74424725",
+            "nombre_completo": "AYORA SALAS, Mayquel",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 19,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "73204207",
+            "nombre_completo": "BARTRA CUESTA, Damaris",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 20,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "60348014",
+            "nombre_completo": "BRAVO PIZANGO, Jim Fernando",
+            "sexo": "MASCULINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 17
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 21,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "71247854",
+            "nombre_completo": "BUSTAMANTE CONTRERAS, Xina Manuelita",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 22,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "75863603",
+            "nombre_completo": "CABALLERO UPIACHIHUA, Brenda",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 23,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "76949837",
+            "nombre_completo": "CALDERON ESPARRAGA, Yessica Jimena",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 24,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "47657927",
+            "nombre_completo": "CAMACHO PISCO, Sandy Jhovany",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 25,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "62382916",
+            "nombre_completo": "CAMPOS AMASIFUEN, Renato",
+            "sexo": "MASCULINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 26,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "75371522",
+            "nombre_completo": "CARDENAS GOICOCHEA, Kiara Sofia",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 27,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "71514684",
+            "nombre_completo": "CARDENAS MACEDO, Iris Karla",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 14
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 28,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "75993463",
+            "nombre_completo": "CARRANZA BANCES, Evelin",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 29,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "71074105",
+            "nombre_completo": "CARRANZA TORRES, Darwin Manuel",
+            "sexo": "MASCULINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 0
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 30,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "70081127",
+            "nombre_completo": "CARRANZA TORRES, Maly Junelly",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 31,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "75208372",
+            "nombre_completo": "CARRASCO GUEVARA, Luz Gianina",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 0
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 32,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "75780257",
+            "nombre_completo": "CARRASCO ROMAN, Andrea",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 33,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "61999374",
+            "nombre_completo": "CATASHUNGA ESTELA, Luz Anali",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 34,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "71502127",
+            "nombre_completo": "CELIS ZAMBRANO, Any",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 35,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "75823996",
+            "nombre_completo": "CENEPO APAGÜEÑO, Llesy Mily",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 36,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "42377852",
+            "nombre_completo": "CEOPA BOCANEGRA, Nancy Isabel",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 37,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "71516729",
+            "nombre_completo": "CEOPA TANGOA, Sarai",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 16
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 14
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 38,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "73372225",
+            "nombre_completo": "CHÁVEZ LÓPEZ, Karolay Andrea",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 15
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 39,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "74956906",
+            "nombre_completo": "CHAVEZ TAPULLIMA, Andrea ",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 40,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "71582140",
+            "nombre_completo": "CHINCHAY RAMOS, Yuli Vilma",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 41,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "60356472",
+            "nombre_completo": " CHOTA MORI, Liz Helen",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 0
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 42,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "73386560",
+            "nombre_completo": "CHUJUNDAMA MORI, Shirley Estefani",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 13
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 13
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 43,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "48027880",
+            "nombre_completo": "COMETIVOS LESCANO, Angela Gabriela",
+            "sexo": "FEMENINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 17
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 15
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 14
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 17
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 14
+                }
+            ]
+        },
+        {
+            "Pnx_Id": 44,
+            "tipo_documento": "D.N.I.",
+            "numero_documento": "78550144",
+            "nombre_completo": "CONDOY CHUQUIHUANGA, Andres Domingo",
+            "sexo": "MASCULINO",
+            "edad": false,
+            "tiene_discapacidad": false,
+            "unidad_didactica": [
+                {
+                    "nombre_unidad_didactica": "ANATOMIA HUMANA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOLOGIA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "PSICOLOGIA GENERAL Y EVOLUTIVA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "BIOFISICA",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "QUIMICA GENERAL",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERIA I",
+                    "nota": 0
+                },
+                {
+                    "nombre_unidad_didactica": "COMUNICACIÓN",
+                    "nota": 0
+                }
+            ]
+        }
+    ]
+    }
+  ]
+}

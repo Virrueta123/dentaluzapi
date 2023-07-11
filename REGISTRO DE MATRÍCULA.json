@@ -1,0 +1,1785 @@
+{
+  "user": "usuario_prueba",
+  "password": "XXXXXXXXXXXXXXX",
+  "data": [
+    {
+      "tipo_acta": "MA",
+      "nombre_periodo_lectivo": "2021-2",
+      "codigo_modular": "0699595",
+      "nombre_sede_institucion": "SEDE TARAPOTO",
+      "nivel_formacion": "PROFESIONAL TECNICO",
+      "nombre_carrera": "ENFERMERIA TECNICA",
+      "nombre_plan_estudio": "2021-2",
+      "semestre_academico": "I",
+      "turno": "DIURNO",
+      "seccion": "A",
+      "cantidad_alumno": 42,
+      "persona": [
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "74597018",
+          "nombre_completo": "ALBERCA CONCHA, Lisbeth",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "48337089",
+          "nombre_completo": "ALVARADO PEREZ, Shanet Meliza",
+          "sexo": "FEMENINO",
+          "edad": 29,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "70171010",
+          "nombre_completo": "ALVAREZ PAREDES, Michell Alexandra",
+          "sexo": "FEMENINO",
+          "edad": 22,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "62666056",
+          "nombre_completo": "ALVAREZ PINEDO, Valeria Nicol",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "75953791",
+          "nombre_completo": "AMASIFUEN TORRES. Edelmith",
+          "sexo": "FEMENINO",
+          "edad": 20,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "44188878",
+          "nombre_completo": "ARAUJO CASTRO, Lusbeth",
+          "sexo": "FEMENINO",
+          "edad": 34,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "41142928",
+          "nombre_completo": "BARBARAN LINARES, Ruth Esperanza",
+          "sexo": "FEMENINO",
+          "edad": 40,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "70418282",
+          "nombre_completo": "BECERRA COPIA DE MENDOZA, Reyna Isabel",
+          "sexo": "FEMENINO",
+          "edad": 28,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "70566173",
+          "nombre_completo": "BERNALES ISUIZA, Francis Learri Augusto",
+          "sexo": "MASCULINO",
+          "edad": 22,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "75553113",
+          "nombre_completo": "BERNILLA TORRES, Diana Lisbeth",
+          "sexo": "FEMENINO",
+          "edad": 19,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "75898313",
+          "nombre_completo": "BOCANEGRA SANDOVAL, Elena",
+          "sexo": "FEMENINO",
+          "edad": 19,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "76072172",
+          "nombre_completo": "CALLE SILVA, Llecenia Aracely",
+          "sexo": "FEMENINO",
+          "edad": 18,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "76642425",
+          "nombre_completo": "CHILCON OLANO, Elisama",
+          "sexo": "FEMENINO",
+          "edad": 23,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "60462440",
+          "nombre_completo": "CHOJEDA RODRIGUEZ, Leiby",
+          "sexo": "FEMENINO",
+          "edad": 18,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "70236137",
+          "nombre_completo": "CHUJUTALLI ZUMBA, Aldo Martin",
+          "sexo": "MASCULINO",
+          "edad": 26,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "75792660",
+          "nombre_completo": "DAVIDAN SANCHEZ, JHAN PIER",
+          "sexo": "MASCULINO",
+          "edad": 18,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "77210207",
+          "nombre_completo": "DAVILA MERA, Ruth Maribel",
+          "sexo": "FEMENINO",
+          "edad": 24,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "73324217",
+          "nombre_completo": "DELGADO LOAIZA, Cleidy Gisella",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "48100348",
+          "nombre_completo": "DELGADO TAYPE, Christian Andre",
+          "sexo": "MASCULINO",
+          "edad": 28,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "71660189",
+          "nombre_completo": "DIAZ MEGO, Lisbeth Madaleine",
+          "sexo": "FEMENINO",
+          "edad": 19,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "61126464",
+          "nombre_completo": "FASABI TITO, Kiara Krissel",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "74049473",
+          "nombre_completo": "FERNANDEZ ESTHOMEYER, Allinson Nadine",
+          "sexo": "FEMENINO",
+          "edad": 18,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "72363491",
+          "nombre_completo": "FLORES PINEDO, Ronald Patrick",
+          "sexo": "MASCULINO",
+          "edad": 19,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "72040825",
+          "nombre_completo": "GALVEZ ZOCON, Angela Rosa",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "76144061",
+          "nombre_completo": "GARCIA GRANDEZ, Luz Karolina",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "76865506",
+          "nombre_completo": "GARCIA HUAMAN, Rafaela",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "47310721",
+          "nombre_completo": "GARCIA HUAZANGA, Hanlly Tatiana",
+          "sexo": "FEMENINO",
+          "edad": 29,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "76629902",
+          "nombre_completo": "GONZAGA VELA, Zoraida Licenia",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "76429747",
+          "nombre_completo": "GRANDEZ PUERTA, Liz Nataly",
+          "sexo": "FEMENINO",
+          "edad": 23,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "75221363",
+          "nombre_completo": "HIDALGO CARO, Gledith",
+          "sexo": "FEMENINO",
+          "edad": 26,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "75650548",
+          "nombre_completo": "HUAMAN SHUPINGAHUA, Liz Roxana",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "47982026",
+          "nombre_completo": "HUMAN PEREZ, Marilu",
+          "sexo": "FEMENINO",
+          "edad": 21,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "44146192",
+          "nombre_completo": "IGLESIAS VIENA, Viviana",
+          "sexo": "FEMENINO",
+          "edad": 34,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "73652521",
+          "nombre_completo": "LEON CELIS, Dersi",
+          "sexo": "FEMENINO",
+          "edad": 20,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "75262247",
+          "nombre_completo": "LOPEZ BARDALES, Alison Joshira",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "44055864",
+          "nombre_completo": "MACHADO PIÑA, Maydys Hiloma",
+          "sexo": "FEMENINO",
+          "edad": 34,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "60575579",
+          "nombre_completo": "MARIN TUANAMA, Abby Azul",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "73989722",
+          "nombre_completo": "MARIN TUANAMA, Amy Ariana",
+          "sexo": "FEMENINO",
+          "edad": 17,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "77352608",
+          "nombre_completo": "MENDOZA REYES, Henry",
+          "sexo": "MASCULINO",
+          "edad": 21,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "47392092",
+          "nombre_completo": "OLIMARES FASABI. Ana Gabriela",
+          "sexo": "FEMENINO",
+          "edad": 30,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "42549841",
+          "nombre_completo": "OLIVOS GOMEZ, Tomasa",
+          "sexo": "FEMENINO",
+          "edad": 37,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        },
+        {
+          "tipo_documento": "D.N.I.",
+          "numero_documento": "72730303",
+          "nombre_completo": "ORDOÑEZ CULQUI, Wilber",
+          "sexo": "FEMENINO",
+          "edad": 24,
+          "tiene_discapacidad": false,
+          "unidad_didactica": [
+            {
+              "nombre_unidad_didactica": "ANATOMÍA HUMANA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOLOGÍA GENERAL",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "PSICOLOGÍA GENERAL Y EVOLUTIVA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "BIOFÍSICA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "QUÍMICA GENERAL I",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "FUNDAMENTOS DE ENFERMERÍA",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "COMUNICACIÓN",
+              "nota": 0
+            },
+            {
+              "nombre_unidad_didactica": "EXPERIENCIAS FORMATIVAS EN SITUACIONES REALES DE TRABAJO",
+              "nota": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

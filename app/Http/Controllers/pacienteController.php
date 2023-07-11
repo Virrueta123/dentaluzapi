@@ -10,8 +10,7 @@ class pacienteController extends Controller
     public function all(){
         echo pacientes::all();
     }
-    public function dropdownsearch(Request $req){
-
+    public function dropdownsearch(Request $req){ 
         $pacientes = pacientes::
                      with("doctor")
                     ->where('Px_Nombre', 'like', '%'.$req->all()["search"].'%')
@@ -27,8 +26,7 @@ class pacienteController extends Controller
             "error"=>"",
             "success"=>true,
             "data"=> $pacientes
-        ]); 
-
+        ]);  
     }
   
     public function searchbyhx(Request $req){
